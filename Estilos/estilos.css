@@ -1,0 +1,140 @@
+*{
+ 
+    margin: 0%;
+    padding: 0%;
+    min-width: 50px;
+    margin-bottom: 0px;
+    
+}
+body{
+    background-color: gold;
+    min-width: 250px;
+    
+}
+.navegacion{
+    width: 948px;
+    margin: 30px auto;
+    background-color: rgb(18, 18, 78);
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.navegacion ul{
+    list-style: none;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.navegacion > li{
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+.navegacion > li > a{
+    display: block;
+    padding: 15px 10px;
+    color:gold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+.navegacion li a:hover{
+    color: white;
+    transition: all .3s;
+    min-width: 250px;
+    margin-bottom: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    min-width: 250px;
+    margin-bottom: 0px;
+    justify-content: center;
+    grid-template-areas: 'header header header'
+    'menu main aside'
+    'footer footer footer';
+    
+}
+
+
+.grid-container div{
+    background-color: rgb(18, 18, 78);
+    text-align: center;
+    color: gold;
+    border: 1px solid black;
+    min-width: 250px;
+    margin-bottom: 0px;
+
+    
+}
+
+.atencionalcliente{
+    grid-area: header;
+    min-width: 250px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.transparenciaactiva{
+    grid-area: menu;
+    min-width: 250px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recursoshumanos{
+    grid-area: main;
+    min-width: 250px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.proveedores{
+    grid-area:  aside;
+    min-width: 250px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.piezasderezago{
+    grid-area: footer;
+    min-width: 250px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.terminosycondiciones{
+    grid-area: footer;
+    color: Gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display:flex;
+    height: 100px;
+    margin: 5px;
+    align-items:baseline;
+    justify-content:space-around;
+    
+    
+}
+    .flex-container div{
+       
+        background-color:rgb(18, 18, 78) ;
+        width: 250px;
+        height: 100px;
+        margin: 5px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid black;
+        min-width: 250px;
+        margin-bottom: 0px;
+        
+
+       
+
+
+}
